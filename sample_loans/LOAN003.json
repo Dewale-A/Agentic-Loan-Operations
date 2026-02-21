@@ -1,0 +1,88 @@
+{
+  "loan_id": "LOAN003",
+  "borrower_name": "Robert Williams",
+  "borrower_email": "r.williams@email.com",
+  "borrower_phone": "(555) 345-6789",
+  "loan_type": "auto",
+  "loan_amount": 35000.00,
+  "interest_rate": 7.25,
+  "term_months": 72,
+  "approval_date": "2026-02-10",
+  "approval_conditions": [
+    "Vehicle inspection required",
+    "Proof of insurance before funding"
+  ],
+  "underwriter": "Lisa Park",
+  "funding_status": "exception_handling",
+  "target_funding_date": "2026-02-20",
+  "documents": {
+    "signed_application": {
+      "name": "Signed Loan Application",
+      "status": "verified",
+      "received_date": "2026-02-08",
+      "verified_date": "2026-02-09"
+    },
+    "proof_of_income": {
+      "name": "Pay Stubs (2 months)",
+      "status": "expired",
+      "received_date": "2026-01-05",
+      "document_date": "2025-11-15"
+    },
+    "proof_of_insurance": {
+      "name": "Auto Insurance Declaration",
+      "status": "pending"
+    },
+    "vehicle_title": {
+      "name": "Vehicle Title",
+      "status": "received",
+      "received_date": "2026-02-12"
+    },
+    "purchase_agreement": {
+      "name": "Vehicle Purchase Agreement",
+      "status": "verified",
+      "received_date": "2026-02-08",
+      "verified_date": "2026-02-09"
+    }
+  },
+  "compliance_checks": {
+    "anti_money_laundering": {
+      "check_name": "AML Screening",
+      "passed": true
+    },
+    "know_your_customer": {
+      "check_name": "KYC Verification",
+      "passed": false,
+      "findings": "Address verification failed - mismatch between application and ID"
+    }
+  },
+  "exceptions": [
+    {
+      "id": "EXC001",
+      "category": "document",
+      "description": "Pay stubs are older than 90 days - need current income verification",
+      "severity": "medium",
+      "created_date": "2026-02-15"
+    },
+    {
+      "id": "EXC002",
+      "category": "verification",
+      "description": "Address mismatch between application and government ID",
+      "severity": "high",
+      "created_date": "2026-02-15"
+    }
+  ],
+  "communications": [
+    {
+      "date": "2026-02-10",
+      "type": "approval_notification",
+      "channel": "email",
+      "summary": "Sent conditional approval notification"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "document_request",
+      "channel": "email",
+      "summary": "Requested updated pay stubs and address clarification"
+    }
+  ]
+}

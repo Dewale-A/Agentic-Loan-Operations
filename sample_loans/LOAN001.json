@@ -1,0 +1,78 @@
+{
+  "loan_id": "LOAN001",
+  "borrower_name": "John Smith",
+  "borrower_email": "john.smith@email.com",
+  "borrower_phone": "(555) 123-4567",
+  "loan_type": "mortgage",
+  "loan_amount": 450000.00,
+  "interest_rate": 6.75,
+  "term_months": 360,
+  "approval_date": "2026-02-15",
+  "approval_conditions": [
+    "Verify employment within 10 days of closing",
+    "Obtain flood certification",
+    "Title insurance required"
+  ],
+  "underwriter": "Sarah Johnson",
+  "funding_status": "document_collection",
+  "target_funding_date": "2026-02-28",
+  "documents": {
+    "signed_application": {
+      "name": "Signed Loan Application",
+      "status": "verified",
+      "received_date": "2026-02-10",
+      "verified_date": "2026-02-11"
+    },
+    "proof_of_income": {
+      "name": "Pay Stubs (2 months)",
+      "status": "received",
+      "received_date": "2026-02-12"
+    },
+    "bank_statements": {
+      "name": "Bank Statements (2 months)",
+      "status": "received",
+      "received_date": "2026-02-12"
+    },
+    "tax_returns": {
+      "name": "Tax Returns (2 years)",
+      "status": "pending"
+    },
+    "property_appraisal": {
+      "name": "Property Appraisal",
+      "status": "verified",
+      "received_date": "2026-02-14",
+      "verified_date": "2026-02-15"
+    },
+    "title_insurance": {
+      "name": "Title Insurance Commitment",
+      "status": "pending"
+    },
+    "homeowners_insurance": {
+      "name": "Homeowners Insurance",
+      "status": "pending"
+    },
+    "flood_certification": {
+      "name": "Flood Certification",
+      "status": "pending"
+    }
+  },
+  "compliance_checks": {
+    "anti_money_laundering": {
+      "check_name": "AML Screening",
+      "passed": true
+    },
+    "know_your_customer": {
+      "check_name": "KYC Verification",
+      "passed": true
+    }
+  },
+  "exceptions": [],
+  "communications": [
+    {
+      "date": "2026-02-15",
+      "type": "approval_notification",
+      "channel": "email",
+      "summary": "Sent loan approval notification with conditions"
+    }
+  ]
+}

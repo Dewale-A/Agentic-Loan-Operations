@@ -1,0 +1,63 @@
+{
+  "loan_id": "LOAN002",
+  "borrower_name": "Maria Garcia",
+  "borrower_email": "maria.garcia@email.com",
+  "borrower_phone": "(555) 234-5678",
+  "loan_type": "personal",
+  "loan_amount": 25000.00,
+  "interest_rate": 9.99,
+  "term_months": 60,
+  "approval_date": "2026-02-18",
+  "approval_conditions": [],
+  "underwriter": "Mike Chen",
+  "funding_status": "verification",
+  "target_funding_date": "2026-02-22",
+  "documents": {
+    "signed_application": {
+      "name": "Signed Loan Application",
+      "status": "verified",
+      "received_date": "2026-02-17",
+      "verified_date": "2026-02-18"
+    },
+    "proof_of_income": {
+      "name": "Pay Stubs (2 months)",
+      "status": "received",
+      "received_date": "2026-02-18",
+      "document_date": "2026-02-01"
+    },
+    "bank_statements": {
+      "name": "Bank Statements (2 months)",
+      "status": "received",
+      "received_date": "2026-02-18"
+    },
+    "proof_of_identity": {
+      "name": "Government ID",
+      "status": "verified",
+      "received_date": "2026-02-17",
+      "verified_date": "2026-02-17"
+    }
+  },
+  "compliance_checks": {
+    "anti_money_laundering": {
+      "check_name": "AML Screening",
+      "passed": true
+    },
+    "know_your_customer": {
+      "check_name": "KYC Verification",
+      "passed": true
+    },
+    "truth_in_lending": {
+      "check_name": "TILA Disclosure",
+      "passed": true
+    }
+  },
+  "exceptions": [],
+  "communications": [
+    {
+      "date": "2026-02-18",
+      "type": "approval_notification",
+      "channel": "email",
+      "summary": "Sent loan approval notification"
+    }
+  ]
+}
