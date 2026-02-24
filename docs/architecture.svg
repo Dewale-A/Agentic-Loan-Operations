@@ -199,4 +199,10 @@
   
   <rect x="210" y="560" width="70" height="25" rx="12" fill="#333333"/>
   <text x="245" y="577" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Python</text>
+  
+  <rect x="290" y="560" width="70" height="25" rx="12" fill="#009688"/>
+  <text x="325" y="577" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">FastAPI</text>
+  
+  <rect x="370" y="560" width="70" height="25" rx="12" fill="#2496ED"/>
+  <text x="405" y="577" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Docker</text>
 </svg>
