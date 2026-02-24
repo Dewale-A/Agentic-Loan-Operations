@@ -1,4 +1,4 @@
-# 📋 AgenticLoanOperations
+# 📋 Agentic Loan Operations
 
 A production-ready **multi-agent AI system** for automated post-approval loan operations. Built with [CrewAI](https://crewai.com), this system handles the back office workflow from loan approval to funding — document collection, verification, compliance review, exception handling, and borrower communication.
 
