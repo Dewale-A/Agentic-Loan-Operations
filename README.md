@@ -13,36 +13,36 @@ A production-ready **multi-agent AI system** for automated post-approval loan op
 This system automates the post-approval loan operations process using 6 specialized AI agents that work together sequentially, mimicking a real lending back office workflow:
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    LOAN OPERATIONS SYSTEM                                   │
-│                  (Post-Approval → Funding)                                  │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
+┌────────────────────────────────────────────────────────────────────────────┐
+│                    LOAN OPERATIONS SYSTEM                                  │
+│                  (Post-Approval → Funding)                                 │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
 │   📋 DOCUMENTS           ✓ VERIFICATION        ⚖ COMPLIANCE                │
 │   ┌─────────────┐       ┌─────────────┐       ┌─────────────┐              │
 │   │  Document   │──────▶│ Verification│──────▶│ Compliance  │              │
 │   │   Tracker   │       │    Agent    │       │   Checker   │              │
 │   └─────────────┘       └─────────────┘       └─────────────┘              │
-│         │                                            │                      │
-│         │                                            ▼                      │
+│         │                                            │                     │
+│         │                                            ▼                     │
 │         │                                     ┌─────────────┐              │
 │         │                                     │  Exception  │              │
 │         │                                     │   Handler   │              │
 │         │                                     └─────────────┘              │
-│         │                                            │                      │
-│         │                                            ▼                      │
+│         │                                            │                     │
+│         │                                            ▼                     │
 │         │                                     ┌─────────────┐              │
 │         │                                     │   Funding   │              │
 │         │                                     │ Coordinator │              │
 │         │                                     └─────────────┘              │
-│         │                                            │                      │
-│         ▼                                            ▼                      │
+│         │                                            │                     │
+│         ▼                                            ▼                     │
 │   ┌─────────────────────────────────────────────────────────┐              │
-│   │              COMMUNICATION AGENT                         │              │
-│   │         (Borrower Updates & Notifications)               │              │
+│   │              COMMUNICATION AGENT                         │             │
+│   │         (Borrower Updates & Notifications)               │             │
 │   └─────────────────────────────────────────────────────────┘              │
-│                              │                                              │
-│                              ▼                                              │
+│                              │                                             │
+│                              ▼                                             │
 │                    ┌─────────────────┐                                     │
 │                    │  LOAN FUNDED    │                                     │
 │                    │  ✓ Documents    │                                     │
@@ -50,8 +50,8 @@ This system automates the post-approval loan operations process using 6 speciali
 │                    │  ✓ Compliant    │                                     │
 │                    │  ✓ Disbursed    │                                     │
 │                    └─────────────────┘                                     │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## 🤖 Agent Roles
